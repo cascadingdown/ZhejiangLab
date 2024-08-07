@@ -19,11 +19,11 @@ The project is organized into the following directories:
 ### Data processing
 
 The data processing script (`data_processing.py`) handles the following tasks:
-- Loading the UCMerced Land Use Dataset.
-- Applying necessary transformations.
-- Updating labels to classify images as artificial or natural.
-- Splitting the dataset into training and testing sets.
-- Creating data loaders for batch processing.
+- Importing the UCMerced Land Use Dataset.
+- Applying transformations to the dataset to ensure consistency and compatibility.
+- Relabeling images to categorize them into artificial or natural classes.
+- Dividing the dataset into training and testing subsets.
+- Constructing data loaders to facilitate efficient batch processing.
 
 ### Model Definitions
 
@@ -43,17 +43,17 @@ The training and evaluation script (`train_and_evaluate.py`) performs:
 ### Visualization
 
 The visualization script (`visualization.py`) provides functions to:
-- Display sample images from the dataset.
-- Show incorrect predictions made by the model.
-- Save images to local directories for further inspection.
+- Render sample images from the dataset for visual inspection.
+- Highlight incorrect predictions made by the model.
+- Save visualizations to local directories for further analysis and reporting.
 
 
 ### Data Transmission
 
 The data transmission script (`transmit.py`) handles the following tasks:
-- Classifying images and separating those predicted as "Artificial".
+- Classifying images and segregating those identified as "Artificial".
 - Transferring images to a remote server using SFTP.
-- Measuring and reporting the time taken for classification and data transfer.
+- Monitoring and reporting the duration of the classification process and the subsequent data transfer to provide insights into efficiency and performance.
 
 ## Examples
 
