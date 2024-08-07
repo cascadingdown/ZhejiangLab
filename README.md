@@ -12,7 +12,7 @@ The dataset can be downloaded from the following link:
 The project is organized into the following directories:
 
 - `code`: Contains the Python scripts for data processing, model definition, training, and evaluation.
-- `examples`: Contains Jupyter notebooks demonstrating the experiments and results.
+- `examples`: Contains results for the experiments.
 
 ## Code Structure
 
@@ -83,7 +83,7 @@ To run the project, follow these steps:
 
 ## Examples
 
-Examples of the experiment and results can be found in the `examples` folder. These Jupyter notebooks provide a detailed walkthrough of the experiments and visualize the results.
+Examples of the experiment and results can be found in the `examples` folder. 
 
 ## License
 
