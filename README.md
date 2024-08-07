@@ -16,9 +16,9 @@ The project is organized into the following directories:
 
 ## Code Structure
 
-### Data Preparation
+### Data processing
 
-The data preparation script (`data_preparation.py`) handles the following tasks:
+The data processing script (`data_processing.py`) handles the following tasks:
 - Loading the UCMerced Land Use Dataset.
 - Applying necessary transformations.
 - Updating labels to classify images as artificial or natural.
@@ -49,45 +49,12 @@ The visualization script (`visualization.py`) provides functions to:
 - 
 ### Data Transmission
 
-The data transmission script handles the following tasks:
+The data transmission script (`transmit.py`) handles the following tasks:
 - Classifying images and separating those predicted as "Artificial".
 - Saving classified images to local directories.
 - Transferring images to a remote server using SFTP.
 - Measuring and reporting the time taken for classification and data transfer.
 - 
-## Running the Project
-
-To run the project, follow these steps:
-
-1. **Clone the repository**:
-    ```sh
-    git clone https://github.com/yourusername/yourrepository.git
-    cd yourrepository
-    ```
-
-2. **Download the dataset**:
-    Download the UCMerced Land Use Dataset from [here](http://weegee.vision.ucmerced.edu/datasets/landuse.html) and extract it to the appropriate directory.
-
-3. **Install dependencies**:
-    Ensure you have Python and the necessary libraries installed:
-    ```sh
-    pip install torch torchvision matplotlib scikit-learn
-    ```
-
-4. **Run the data preparation script**:
-    ```sh
-    python code/data_preparation.py
-    ```
-
-5. **Train and evaluate the model**:
-    ```sh
-    python code/train_and_evaluate.py
-    ```
-
-6. **Visualize the results**:
-    ```sh
-    python code/visualization.py
-    ```
 
 ## Examples
 
