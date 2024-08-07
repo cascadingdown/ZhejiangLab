@@ -82,7 +82,7 @@ for idx, img in enumerate(all_images):
     img = transforms.ToPILImage()(img)
     img.save(f'all_images/img_{idx}.jpeg')
 
-# 保save as artificial_images
+# save as artificial_images
 for idx, img in enumerate(artificial_images):
     img = transforms.ToPILImage()(img)
     img.save(f'artificial_images/img_{idx}.jpeg')
