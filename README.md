@@ -46,15 +46,14 @@ The visualization script (`visualization.py`) provides functions to:
 - Display sample images from the dataset.
 - Show incorrect predictions made by the model.
 - Save images to local directories for further inspection.
-- 
+
+
 ### Data Transmission
 
 The data transmission script (`transmit.py`) handles the following tasks:
 - Classifying images and separating those predicted as "Artificial".
-- Saving classified images to local directories.
 - Transferring images to a remote server using SFTP.
 - Measuring and reporting the time taken for classification and data transfer.
-- 
 
 ## Examples
 
