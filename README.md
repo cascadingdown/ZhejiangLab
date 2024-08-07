@@ -1,4 +1,4 @@
-# Edge-Cloud Collaborative Satellite Image Analysis for Efficient Man-Made Structure Recognition
+# Edge-Cloud Collaborative Satellite Image Analysis for Efficient Man-Made Structure Recognition（IEEE under review)
 
 This project utilizes the UCMerced Land Use Dataset for training and evaluating various models to classify images into artificial and natural categories in an attempt to strike a balance between accuracy and latency. The code supports the research presented in the paper "Edge-Cloud Collaborative Satellite Image Analysis for Efficient Man-Made Structure Recognition".
 
